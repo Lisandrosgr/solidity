@@ -109,6 +109,7 @@ Bugfixes:
  * Type Checker: Fix freeze for negative fixed-point literals very close to ``0``, such as ``-1e-100``.
  * Type Checker: Report error when using structs in events without experimental ABIEncoderV2. This used to crash or log the wrong values.
  * Type System: Allow arbitrary exponents for literals with a mantissa of zero.
+ * View Pure Checker: Warn about ``msg.value`` used by modifier in non-payable function.
 
 ### 0.4.24 (2018-05-16)
 
